@@ -1,0 +1,30 @@
+{
+  "name": "full-backend",
+  "version": "1.0.0",
+  "description": "Hoc Fullstack backend ",
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "homepage": "https://github.com/Coderbabie/fullstack-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Coderbabie/fullstack-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coderbabie/fullstack-backend.git"
+  },
+  "license": "ISC",
+  "author": "Thinh",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "17.2.2",
+    "ejs": "3.1.10",
+    "express": "5.1.0"
+  }
+}
